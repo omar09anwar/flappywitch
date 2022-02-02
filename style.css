@@ -1,0 +1,14 @@
+body{
+    background-image: url(bacground.png);
+    text-align: center;
+    color: white;
+    background-size: cover;
+    }
+    
+    canvas{
+    background-color: #dbab91;
+    }
+    
+    .button{
+    margin: 25px;
+    }

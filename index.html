@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Flappy Witch</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body onload="startGame()">
+<header>
+<img src="logo.png" alt="">
+<h4>Built with 💙 by omar</h4>
+</header>
+<div>
+<img class="button" onmousedown="moveleft()" onmouseup = "clearmove()" src="left.png" alt="">
+<img class="button" onmousedown="moveup()" onmouseup = "clearmove()" src="up.png" alt="">
+<img class="button" onmousedown="movedown()" onmouseup = "clearmove()" src="down.png" alt="">
+<img class="button" onmousedown="moveright()" onmouseup = "clearmove()" src="right.png" alt="">
+</div>
+
+<script src="./app.js"></script>
+</body>
+</html>
